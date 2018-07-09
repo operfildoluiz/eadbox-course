@@ -4,9 +4,24 @@ import { Course } from './course';
 @Injectable()
 export class CourseDataService {
 
-  constructor() { }
-
   courses: Course[] = [];
+  constructor() { 
+    
+    this.courses.push(new Course({
+      course_id: 'id',
+      course_slug: 'slug',
+      title: 'Slug',
+      is_paid: false
+    }));
+
+    this.courses.push(new Course({
+      course_id: 'aedi',
+      course_slug: 'eslangue',
+      title: 'Eslangue',
+      is_paid: true
+    }));
+
+  }
 
   list(): Course[] {
     return this.courses;

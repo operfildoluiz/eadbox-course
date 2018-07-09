@@ -1,15 +1,5 @@
 <section class="eadbox-course">
-  <header class="header">
-    <h1>Cursos</h1>
-  </header>
-  <section class="main" *ngIf="courses.length > 0">
-    <ul class="course-list">
-      <li *ngFor="let course of courses">
-        {{course.title}}
-      </li>
-    </ul>
-  </section>
-  <footer class="footer" *ngIf="courses.length > 0">
-    <span class="course-count"><strong>{{courses.length}}</strong> {{courses.length == 1 ? 'curso' : 'cursos'}}</span>
-  </footer>
+  <course-list-header></course-list-header>
+  <course-list [courses]="courses"></course-list>
+  <course-list-footer [total]="courses.length"></course-list-footer>
 </section>
