@@ -1,3 +1,15 @@
-<h1>
-  {{title}}
-</h1>
+<section class="eadbox">
+  <header class="header">
+    <h1>Cursos</h1>
+  </header>
+  <section class="main" *ngIf="courses.length > 0">
+    <ul class="courses-list">
+      <li *ngFor="let course of courses">
+          <label>{{course.title}}</label>
+      </li>
+    </ul>
+  </section>
+  <footer class="footer" *ngIf="courses.length > 0">
+    <span class="course-count"><strong>{{courses.length}}</strong> {{courses.length == 1 ? 'item' : 'items'}} left</span>
+  </footer>
+</section>
