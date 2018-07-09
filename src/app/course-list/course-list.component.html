@@ -1,7 +1,7 @@
-<section class="main" *ngIf="courses.length > 0">
-  <ul class="course-list">
-    <li *ngFor="let course of courses">
+<section class="section" *ngIf="courses.length > 0">
+  <section class="container">
+    <div *ngFor="let course of courses">
       <course-list-item [course]="course"></course-list-item>
-    </li>
-  </ul>
+    </div>
+  </section>
 </section>

@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  apiUrl: "https://luiz-teste.eadbox.com/api/"
 };

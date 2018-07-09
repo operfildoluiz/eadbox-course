@@ -8,6 +8,7 @@ import { CourseListHeaderComponent } from './course-list-header/course-list-head
 import { CourseListComponent } from './course-list/course-list.component';
 import { CourseListItemComponent } from './course-list-item/course-list-item.component';
 import { CourseListFooterComponent } from './course-list-footer/course-list-footer.component';
+import { ApiService } from './api.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { CourseListFooterComponent } from './course-list-footer/course-list-foot
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [ApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

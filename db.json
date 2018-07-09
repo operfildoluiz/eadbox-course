@@ -1,0 +1,121 @@
+{
+  "courses": [
+    {
+      "course_id": "5b439b9d785090006f5410c7",
+      "course_slug": "curso-de-espanhol-basico-online-gratis",
+      "title": "Curso de Espanhol Básico Online Grátis",
+      "description":
+        "<p>Com esse Curso de Espanhol você vai aprender tópicos relacionados a gramática, verbos, diálogos, listas de palavras mais utilizadas entre outros.</p><p>Torne-se um profissional mais competitivo nesse mundo globalizado, aprenda a falar Espanhol com este curso grátis!</p>",
+      "is_paid": false,
+      "price": null,
+      "objective":
+        "Um&nbsp;curso livre para Qualificação Profissional, onde o aluno aprenderá o básico da gramática espanhola, os números ordinais e cardinais, o alfabeto, a pronúncia correta do idioma, o vocabulário fundamental de uso cotidiano, as horas, os principais verbos regulares e irregulares.",
+      "certification":
+        "<p>Vantagens do Certificado:</p><p>* Atualizar seu Currículo, aumentando suas chances para conquistar um bom emprego;<br>* Aumentar suas chances de promoção no emprego (atual);<br>* Completar horas em atividades Extracurriculares (geralmente exigidas em Faculdades);<br>* Progressão Funcional para Servidores Públicos;<br>* Pré-Requisito para concursos e cursos.</p>",
+      "target_audience":
+        "profissional mais competitivo nesse mundo globalizado",
+      "workload": 50,
+      "time_available": null,
+      "topics": [
+        "Alfabeto - El alfabeto",
+        "Saudações - Saludos",
+        "Pronomes Pessoais",
+        "Gramática Básica",
+        "Pronomes Interrogativos e Exclamativos",
+        "O uso do Hay",
+        "Muy e Mucho",
+        "Os Possessivos",
+        "Plural em Espanhol",
+        "Verbo Gustar/Gostar",
+        "Presente do Indicativo - Verbos Irregulares",
+        "Advérbios de Quantidade",
+        "Outros Advérbios Básicos",
+        "Preposição de Lugar",
+        "Pronúncia Simplificada",
+        "Numerais Cardinais e Ordinais",
+        "As Horas",
+        "Dias da Semana e Meses do Ano",
+        "As estações do ano",
+        "As Cores",
+        "Países e Nacionalidades",
+        "A Família",
+        "As Profissões",
+        "Características físicas e de personalidade das pessoas",
+        "Signos do Zodíaco",
+        "Minha Casa",
+        "Comidas",
+        "Comércio - Fazendo Compras",
+        "Vocabulário de dia-a-dia",
+        "Vocabulário de Férias",
+        "Animales - os Animais",
+        "Preenchendo um formulário"
+      ],
+      "lectures": [
+        {
+          "lecture_id": "5b439b9d785090006f5410d9",
+          "lecture_slug": "alfabeto-el-alfabeto",
+          "title": "Alfabeto - El alfabeto",
+          "description":
+            "A língua espanhola teve origem no reino medieval de Castela. Como na Espanha ou na América Latina (hispânica), o idioma espanhol é conhecido como castelhano, em referência à sua região de origem.",
+          "is_free": false,
+          "updated_at": "2018-07-09T14:33:30.234-03:00",
+          "position": 0,
+          "created_at": "2018-07-09T14:30:05.796-03:00"
+        }
+      ],
+      "category": {
+        "category_id": "5b433ebb9566d00056ca1111",
+        "category_slug": "categoria-teste-63",
+        "title": "Categoria Teste"
+      },
+      "logo_url":
+        "https://media.eadbox.com/system/uploads/course/logo/5b439b9d785090006f5410c7/espanha.jpg"
+    },
+    {
+      "course_id": "5b433eec7ffec6002e87098f",
+      "course_slug": "assistente-administrativo",
+      "title": "Assistente Administrativo",
+      "description":
+        "<div id=\"\">O Curso Online de Assistente Administrativo, tem como objetivo capacitar, qualificar e atualizar o profissional para atuar nas áreas relacionadas a rotinas administrativas existentes nas empresas.</div><div id=\"\"></div><div id=\"\"><br>O curso atende a demanda crescente em um mercado altamente propício das empresas atuais, proporcionando uma visão sistemática das organizações e do mundo do trabalho.</div><div id=\"\"></div><div id=\"\"><br>Ao concluir o Curso de Assistente Administrativo, o aluno estará qualificado a atuar em diversas áreas ligadas com as rotinas das empresas produtoras e prestadora de serviços, podendo atuar em:</div><div id=\"\"></div><div id=\"\"><br><ul><li>Executar rotinas e processos administrativos;</li><li>Administrar as finanças da organização;</li><li>Desenvolver atividades contábeis e financeiras, capacitado para desenvolver no mercado de contexto globalizado;</li><li>Planejar, analisar o ambiente interno e externo das organizações e suas influências no mercado empresarial.</li></ul></div>",
+      "is_paid": true,
+      "price": 459,
+      "objective":
+        "<p class=\"MsoNormal\">O&nbsp;Curso Online de Assistente Administrativo&nbsp;é realizado por meio de videoaulas online e apostilas digitais que ficam disponíveis 24 horas por dia em nossa plataforma de estudos, desta forma, permitindo que você estude conforme sua disponibilidade.</p><p class=\"MsoNormal\">Ao concluir os estudos de cada módulo o aluno deverá realizar a avaliação referente ao mesmo. As avaliações ficam disponíveis na própria plataforma de estudos, podendo realizá-las a qualquer momento.</p><p></p><p class=\"MsoNormal\">Concluindo todas as provas do&nbsp;Curso Online de Assistente Administrativo&nbsp;e atingindo média igual ou superior a 6, o aluno poderá solicitar o certificado.</p>",
+      "certification": "Certificado Digital",
+      "target_audience":
+        "O profissional que realiza o&nbsp;Curso Online de Assistente Administrativo,&nbsp;esta presente em todas as estratégias do trabalho de desenvolvimento administrativo da organização empresarial",
+      "workload": 386,
+      "time_available": 60,
+      "topics": [
+        "Princípios Administrativos",
+        "Comunicação Empresarial e Correspondência",
+        "Teoria Geral da Administração",
+        "Informática Aplicada à Gestão",
+        "Sistemas de Informações Gerenciais",
+        "Comportamento Organizacional",
+        "Atendimento ao Cliente",
+        "Negociação Empresarial"
+      ],
+      "lectures": [
+        {
+          "lecture_id": "5b433eec7ffec6002e8709a1",
+          "lecture_slug": "principios-administrativos",
+          "title": "Princípios Administrativos",
+          "description":
+            "Entenda os conceitos básicos da administração de negócios",
+          "is_free": false,
+          "updated_at": "2018-07-09T09:04:41.516-03:00",
+          "position": 0,
+          "created_at": "2018-07-09T07:54:36.490-03:00"
+        }
+      ],
+      "category": {
+        "category_id": "5b4346cb58cd78003d61eb45",
+        "category_slug": "profissionalizantes-10",
+        "title": "Profissionalizantes"
+      },
+      "logo_url":
+        "https://media.eadbox.com/system/uploads/course/logo/5b433eec7ffec6002e87098f/curso-de-assistente-administrativo-cursos-online-518023b0-b75e-4c67-9220-33c542f37f8a.png"
+    }
+  ]
+}
