@@ -12,7 +12,7 @@ export class CourseDataService {
     return this.api.getAll();
   }
 
-  // read(course_id: string): Course {
-  //   return this.courses.filter(course => course.course_id === course_id).pop();
-  // }
+  read(course_slug: string): Observable<Course> {
+    return this.api.getBySlug(course_slug);
+  }
 }

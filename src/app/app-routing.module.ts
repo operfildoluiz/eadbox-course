@@ -1,3 +1,4 @@
+import { CoursePageComponent } from "./course-page/course-page.component";
 import { CoursesComponent } from "./courses/courses.component";
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
@@ -13,6 +14,10 @@ const routes: any = [
   {
     path: "courses",
     component: CoursesComponent
+  },
+  {
+    path: "courses/:id",
+    component: CoursePageComponent
   },
   {
     path: "**",

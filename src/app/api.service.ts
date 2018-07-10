@@ -25,13 +25,13 @@ export class ApiService {
       .catch(this.handleError);
   }
 
-  public getById(course_id: number): Observable<Course> {
+  public getBySlug(course_slug: string): Observable<Course> {
     return this.http
       .get(API_URL + "courses?page=1")
       .map(res => {
         let course = res
           .json()
-          .filter(item => item.id === course_id)
+          .filter(item => item.course_slug === course_slug)
           .pop();
 
         return new Course(course);

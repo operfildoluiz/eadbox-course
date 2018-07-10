@@ -10,8 +10,9 @@ import { CourseListComponent } from "./course-list/course-list.component";
 import { CourseListItemComponent } from "./course-list-item/course-list-item.component";
 import { CourseListFooterComponent } from "./course-list-footer/course-list-footer.component";
 import { ApiService } from "./api.service";
-import { CoursesComponent } from './courses/courses.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { CoursesComponent } from "./courses/courses.component";
+import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
+import { CoursePageComponent } from "./course-page/course-page.component";
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     CourseListItemComponent,
     CourseListFooterComponent,
     CoursesComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    CoursePageComponent
   ],
   imports: [AppRoutingModule, BrowserModule, FormsModule, HttpModule],
   providers: [ApiService],

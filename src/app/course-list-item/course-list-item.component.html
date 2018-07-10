@@ -1,4 +1,31 @@
-<p>
-  {{course.title}}
-  <b *ngIf="!course.is_paid">É FREE</b>
-</p>
+<div class="card">
+  <div class="card-image">
+    <figure class="image">
+      <a [routerLink]="['/courses', course.course_slug]">
+        <img src="{{course.logo_url}}" alt="{{course.course_slug}}">
+      </a>
+    </figure>
+  </div>
+  <div class="card-content">
+    <div class="media">
+      <div class="media-content">
+        <p>
+          <span class="title is-4">{{course.title}}</span>
+        </p>
+        <p>
+          <a [routerLink]="['/courses', course.course_slug]">
+            <span class="tag tag-down is-success is-bold" *ngIf="!course.is_paid">CURSO GRÁTIS</span>
+            <span class="tag tag-down is-dark" *ngIf="course.is_paid">{{course.price | currency:'BRL':true}}</span>
+          </a>
+        </p>
+
+        <p [innerHTML]="(course.description.length>120)? (course.description | slice:0:120)+'...':(course.description)"></p>
+      </div>
+    </div>
+
+    <div class="content">
+      <a href="#">{{course.workload}} horas/aula</a> ·
+      <a href="#">{{course.category.title}}</a>
+    </div>
+  </div>
+</div>

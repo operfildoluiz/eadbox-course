@@ -1,9 +1,55 @@
 {
   "courses": [
     {
+      "course_id": "5b433eec7ffec6002e87098f",
+      "course_slug": "assistente-administrativo",
+      "title": "Assistente Administrativo",
+      "description":
+        "<div id=\"\">O Curso Online de Assistente Administrativo, tem como objetivo capacitar, qualificar e atualizar o profissional para atuar nas áreas relacionadas a rotinas administrativas existentes nas empresas.</div><div id=\"\"></div><div id=\"\"><br>O curso atende a demanda crescente em um mercado altamente propício das empresas atuais, proporcionando uma visão sistemática das organizações e do mundo do trabalho.</div><div id=\"\"></div><div id=\"\"><br>Ao concluir o Curso de Assistente Administrativo, o aluno estará qualificado a atuar em diversas áreas ligadas com as rotinas das empresas produtoras e prestadora de serviços, podendo atuar em:</div><div id=\"\"></div><div id=\"\"><br><ul><li>Executar rotinas e processos administrativos;</li><li>Administrar as finanças da organização;</li><li>Desenvolver atividades contábeis e financeiras, capacitado para desenvolver no mercado de contexto globalizado;</li><li>Planejar, analisar o ambiente interno e externo das organizações e suas influências no mercado empresarial.</li></ul></div>",
+      "is_paid": true,
+      "price": 459,
+      "objective":
+        "<p class=\"MsoNormal\">O&nbsp;Curso Online de Assistente Administrativo&nbsp;é realizado por meio de videoaulas online e apostilas digitais que ficam disponíveis 24 horas por dia em nossa plataforma de estudos, desta forma, permitindo que você estude conforme sua disponibilidade.</p><p class=\"MsoNormal\">Ao concluir os estudos de cada módulo o aluno deverá realizar a avaliação referente ao mesmo. As avaliações ficam disponíveis na própria plataforma de estudos, podendo realizá-las a qualquer momento.</p><p></p><p class=\"MsoNormal\">Concluindo todas as provas do&nbsp;Curso Online de Assistente Administrativo&nbsp;e atingindo média igual ou superior a 6, o aluno poderá solicitar o certificado.</p>",
+      "certification": "Certificado Digital",
+      "target_audience":
+        "O profissional que realiza o&nbsp;Curso Online de Assistente Administrativo,&nbsp;esta presente em todas as estratégias do trabalho de desenvolvimento administrativo da organização empresarial",
+      "workload": 386,
+      "time_available": 60,
+      "topics": [
+        "Princípios Administrativos",
+        "Comunicação Empresarial e Correspondência",
+        "Teoria Geral da Administração",
+        "Informática Aplicada à Gestão",
+        "Sistemas de Informações Gerenciais",
+        "Comportamento Organizacional",
+        "Atendimento ao Cliente",
+        "Negociação Empresarial"
+      ],
+      "lectures": [
+        {
+          "lecture_id": "5b433eec7ffec6002e8709a1",
+          "lecture_slug": "principios-administrativos",
+          "title": "Princípios Administrativos",
+          "description":
+            "Entenda os conceitos básicos da administração de negócios",
+          "is_free": false,
+          "updated_at": "2018-07-09T09:04:41.516-03:00",
+          "position": 0,
+          "created_at": "2018-07-09T07:54:36.490-03:00"
+        }
+      ],
+      "category": {
+        "category_id": "5b4346cb58cd78003d61eb45",
+        "category_slug": "profissionalizantes-10",
+        "title": "Profissionalizantes"
+      },
+      "logo_url":
+        "https://media.eadbox.com/system/uploads/course/logo/5b433eec7ffec6002e87098f/curso-de-assistente-administrativo-cursos-online-518023b0-b75e-4c67-9220-33c542f37f8a.png"
+    },
+    {
       "course_id": "5b439b9d785090006f5410c7",
-      "course_slug": "curso-de-espanhol-basico-online-gratis",
-      "title": "Curso de Espanhol Básico Online Grátis",
+      "course_slug": "curso-de-espanhol-basico",
+      "title": "Curso de Espanhol Básico",
       "description":
         "<p>Com esse Curso de Espanhol você vai aprender tópicos relacionados a gramática, verbos, diálogos, listas de palavras mais utilizadas entre outros.</p><p>Torne-se um profissional mais competitivo nesse mundo globalizado, aprenda a falar Espanhol com este curso grátis!</p>",
       "is_paid": false,
@@ -72,50 +118,41 @@
         "https://media.eadbox.com/system/uploads/course/logo/5b439b9d785090006f5410c7/espanha.jpg"
     },
     {
-      "course_id": "5b433eec7ffec6002e87098f",
-      "course_slug": "assistente-administrativo",
-      "title": "Assistente Administrativo",
+      "course_id": "5b44218e493a260076eadb17",
+      "course_slug": "desenvolvedor-blockchain",
+      "title": "Desenvolvedor Blockchain",
       "description":
-        "<div id=\"\">O Curso Online de Assistente Administrativo, tem como objetivo capacitar, qualificar e atualizar o profissional para atuar nas áreas relacionadas a rotinas administrativas existentes nas empresas.</div><div id=\"\"></div><div id=\"\"><br>O curso atende a demanda crescente em um mercado altamente propício das empresas atuais, proporcionando uma visão sistemática das organizações e do mundo do trabalho.</div><div id=\"\"></div><div id=\"\"><br>Ao concluir o Curso de Assistente Administrativo, o aluno estará qualificado a atuar em diversas áreas ligadas com as rotinas das empresas produtoras e prestadora de serviços, podendo atuar em:</div><div id=\"\"></div><div id=\"\"><br><ul><li>Executar rotinas e processos administrativos;</li><li>Administrar as finanças da organização;</li><li>Desenvolver atividades contábeis e financeiras, capacitado para desenvolver no mercado de contexto globalizado;</li><li>Planejar, analisar o ambiente interno e externo das organizações e suas influências no mercado empresarial.</li></ul></div>",
+        "Adquira os conhecimentos essenciais para iniciar uma carreira de <b>desenvolvedor blockchain</b>.",
       "is_paid": true,
-      "price": 459,
+      "price": 2200,
       "objective":
-        "<p class=\"MsoNormal\">O&nbsp;Curso Online de Assistente Administrativo&nbsp;é realizado por meio de videoaulas online e apostilas digitais que ficam disponíveis 24 horas por dia em nossa plataforma de estudos, desta forma, permitindo que você estude conforme sua disponibilidade.</p><p class=\"MsoNormal\">Ao concluir os estudos de cada módulo o aluno deverá realizar a avaliação referente ao mesmo. As avaliações ficam disponíveis na própria plataforma de estudos, podendo realizá-las a qualquer momento.</p><p></p><p class=\"MsoNormal\">Concluindo todas as provas do&nbsp;Curso Online de Assistente Administrativo&nbsp;e atingindo média igual ou superior a 6, o aluno poderá solicitar o certificado.</p>",
-      "certification": "Certificado Digital",
+        "&nbsp;Aprenda a iniciar a disposição em camadas dos serviços do blockchain com a integração legada a fim de desenvolver ainda mais suas habilidades de blockchain independente de plataformas.",
+      "certification": "Certificado digital",
       "target_audience":
-        "O profissional que realiza o&nbsp;Curso Online de Assistente Administrativo,&nbsp;esta presente em todas as estratégias do trabalho de desenvolvimento administrativo da organização empresarial",
-      "workload": 386,
-      "time_available": 60,
-      "topics": [
-        "Princípios Administrativos",
-        "Comunicação Empresarial e Correspondência",
-        "Teoria Geral da Administração",
-        "Informática Aplicada à Gestão",
-        "Sistemas de Informações Gerenciais",
-        "Comportamento Organizacional",
-        "Atendimento ao Cliente",
-        "Negociação Empresarial"
-      ],
+        "Se você for um desenvolvedor experiente interessado em trabalhar com contratos inteligentes, blockchains e criptomoedas, este programa permitirá que domine as habilidades necessárias para ter sucesso nesta área dinâmica.",
+      "workload": 600,
+      "time_available": null,
+      "topics": ["Arquitetura", "Cadeia de suprimentos", "Auditoria de dados"],
       "lectures": [
         {
-          "lecture_id": "5b433eec7ffec6002e8709a1",
-          "lecture_slug": "principios-administrativos",
-          "title": "Princípios Administrativos",
+          "lecture_id": "5b44218e493a260076eadb29",
+          "lecture_slug": "fundamentos",
+          "title": "Fundamentos",
           "description":
-            "Entenda os conceitos básicos da administração de negócios",
+            "Aprenda a identificar os principais tipos de transação, desenvolver APIs de web service e proteger os ativos digitais por meio de sua identidade blockchain. Crie um blockchain privado e um web service de autenticação. Use sua identidade blockchain para proteger ativos digitais na plataforma Ethereum com um contrato inteligente.",
           "is_free": false,
-          "updated_at": "2018-07-09T09:04:41.516-03:00",
+          "updated_at": "2018-07-10T00:06:54.643-03:00",
           "position": 0,
-          "created_at": "2018-07-09T07:54:36.490-03:00"
+          "created_at": "2018-07-10T00:01:34.953-03:00"
         }
       ],
       "category": {
-        "category_id": "5b4346cb58cd78003d61eb45",
-        "category_slug": "profissionalizantes-10",
-        "title": "Profissionalizantes"
+        "category_id": "5b44214e7ffec60039884dc0",
+        "category_slug": "desenvolvimento-53",
+        "title": "Desenvolvimento"
       },
       "logo_url":
-        "https://media.eadbox.com/system/uploads/course/logo/5b433eec7ffec6002e87098f/curso-de-assistente-administrativo-cursos-online-518023b0-b75e-4c67-9220-33c542f37f8a.png"
+        "https://media.eadbox.com/system/uploads/course/logo/5b44218e493a260076eadb17/GlobalGuard-the-Worlds-First-AI-and-Blockchain-Cybersecurity-Network.png"
     }
   ]
 }
