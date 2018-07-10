@@ -1,4 +1,4 @@
-![](https://s3.amazonaws.com/wordpress-cdn.eadbox.com/2018/04/12091640/01_EADBOX_RGB_PRINCIPAL.png =250x)
+![](https://s3.amazonaws.com/wordpress-cdn.eadbox.com/2018/04/12091640/01_EADBOX_RGB_PRINCIPAL.png)
 
 # EADBOX Course
 
