@@ -1,31 +1,34 @@
-# EadboxCourse
+# EADBOX Course
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
+EADBOX Course é um projeto de landing-page de cursos desenvolvido como desafio para o processo seletivo da EADBOX
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+> **Proposta**
+> Implementar uma listagem com os cursos cadastrados na plataforma consumindo a API Eadbox utilizando Angular 2+.
 
-## Code scaffolding
+## Desenvolvimento
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+### Ambiente
 
-## Build
+O aplicativo pode ser acessado através do GitHub Pages, [clicando aqui](https://lhcgoncalves.github.io/eadbox-course).
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+### Back-end
 
-## Running unit tests
+O EADBOX Course consome a API oficial da EADBOX para o usuário definido no arquivo `src/environments/environment.ts` em localhost ou `src/environments/environment.prod.ts` em produção.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Em desenvolvimento, é possível utilizar o `json-server`, rodando o comando `npm run json-server`, que consome o arquivo `db.json`
 
-## Running end-to-end tests
+### Front-end
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+O sistema utiliza o Angular 2 como framework front-end e Bulma como framework CSS. O build faz uso do Webpack para limpeza e minificação na branch `gh-pages`.
 
-## Deploying to GitHub Pages
+## Como instalar localmente
 
-Run `ng github-pages:deploy` to deploy to GitHub Pages.
+Primeiro, clone o repositório e acesse a pasta raíz do projeto.
 
-## Further help
+Depois, instale as dependências através do NPM:
 
-To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+    npm install
+
+Inicie o servidor built-in através do comando:
+
+    ng serve
