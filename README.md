@@ -1,4 +1,4 @@
-![](https://s3.amazonaws.com/wordpress-cdn.eadbox.com/2018/04/12091640/01_EADBOX_RGB_PRINCIPAL.png)
+![](./src/logo.png)
 
 # EADBOX Course
 
@@ -22,6 +22,8 @@ Em desenvolvimento, é possível utilizar o `json-server`, rodando o comando `np
 ### Front-end
 
 O sistema utiliza o Angular 2 como framework front-end e Bulma como framework CSS. O build faz uso do Webpack para limpeza e minificação na branch `gh-pages`.
+
+![](./src/animation.gif)
 
 ## Como instalar localmente
 
