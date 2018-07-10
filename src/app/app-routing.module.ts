@@ -1,9 +1,8 @@
-import { CoursePageComponent } from "./course-page/course-page.component";
-import { CoursesComponent } from "./courses/courses.component";
+import { CoursePageComponent } from "./components/course-page/course-page.component";
+import { CoursesComponent } from "./components/courses/courses.component";
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
-import { AppComponent } from "./app.component";
-import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
+import { PageNotFoundComponent } from "./components/page-not-found/page-not-found.component";
 
 const routes: any = [
   {

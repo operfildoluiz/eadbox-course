@@ -5,6 +5,7 @@
 
 export const environment = {
   production: false,
-  apiUrl: "https://luiz-teste.eadbox.com/api/",
+  // apiUrl: "https://luiz-teste.eadbox.com/api/",
+  apiUrl: "http://localhost:3000/",
   name: "TestSchool"
 };

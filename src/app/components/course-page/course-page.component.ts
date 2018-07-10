@@ -1,7 +1,6 @@
-import { environment } from "./../../environments/environment";
-import { Observable } from "rxjs/Observable";
-import { CourseDataService } from "./../course-data.service";
-import { Course } from "./../course";
+import { environment } from "./../../../environments/environment";
+import { CourseDataService } from "./../../course-data.service";
+import { Course } from "./../../course";
 import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute, Router } from "@angular/router";
 

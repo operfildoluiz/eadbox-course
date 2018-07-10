@@ -1,5 +1,5 @@
-import { Component, OnInit, Input, LOCALE_ID } from "@angular/core";
-import { Course } from "./../course";
+import { Component, Input, LOCALE_ID } from "@angular/core";
+import { Course } from "./../../course";
 
 @Component({
   selector: "course-list-item",
@@ -7,10 +7,8 @@ import { Course } from "./../course";
   styleUrls: ["./course-list-item.component.css"],
   providers: [{ provide: LOCALE_ID, useValue: "pt-BR" }]
 })
-export class CourseListItemComponent implements OnInit {
+export class CourseListItemComponent {
   constructor() {}
 
   @Input() course: Course[];
-
-  ngOnInit() {}
 }
