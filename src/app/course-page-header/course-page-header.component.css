@@ -1,0 +1,10 @@
+.image {
+  border: 1px solid #999;
+  padding: 4px;
+  border-radius: 0;
+  background: #f7f7f7;
+}
+
+.hero-head {
+  margin: 5px;
+}

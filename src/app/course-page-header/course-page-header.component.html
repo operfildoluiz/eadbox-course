@@ -1,0 +1,30 @@
+<section class="hero is-info is-bold">
+  <div class="hero-head">
+    <a [routerLink]="['/']" class="button is-small is-default is-dark">Voltar</a>
+  </div>
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <div class="columns is-vcentered">
+        <div class="column is-5">
+          <figure class="image">
+            <img src="{{course.logo_url}}" alt="{{course.title}}">
+          </figure>
+        </div>
+        <div class="column is-6 is-offset-1">
+          <h2 class="subtitle is-4">
+            CURSO ONLINE
+          </h2>
+          <h1 class="title is-2">
+            {{course.title}}
+          </h1>
+          <br>
+          <p class="has-text-centered">
+            <a class="button is-medium is-info is-inverted is-outlined">
+              Iniciar agora
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

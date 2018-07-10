@@ -1,0 +1,7 @@
+<div class="container">
+  <h1 class="title">Aulas disponíveis</h1>
+  <div *ngFor="let lecture of lectures" class="content">
+    <h3>{{lecture.title}}</h3>
+    <p [innerHTML]="lecture.description"></p>
+  </div>
+</div>

@@ -1,3 +1,4 @@
+import { environment } from "./../../environments/environment";
 import { Observable } from "rxjs/Observable";
 import { CourseDataService } from "./../course-data.service";
 import { Course } from "./../course";
@@ -13,6 +14,7 @@ import { ActivatedRoute } from "@angular/router";
 export class CoursePageComponent implements OnInit {
   id: string;
   course: Course = new Course();
+  APP_NAME = environment.name;
 
   constructor(
     private route: ActivatedRoute,
