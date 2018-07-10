@@ -1,3 +1,5 @@
+![](https://s3.amazonaws.com/wordpress-cdn.eadbox.com/2018/04/12091640/01_EADBOX_RGB_PRINCIPAL.png =250x)
+
 # EADBOX Course
 
 EADBOX Course é um projeto de landing-page de cursos desenvolvido como desafio para o processo seletivo da EADBOX
