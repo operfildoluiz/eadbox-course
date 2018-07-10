@@ -1,3 +1,16 @@
 .container {
   padding-bottom: 30px;
 }
+
+.lecture-position {
+  position: relative;
+  z-index: -1;
+  font-size: 96px;
+  font-weight: 700;
+}
+
+.lecture-title {
+  position: relative;
+  font-size: 48px;
+  left: -30px;
+}

@@ -1,0 +1,25 @@
+<section class="section">
+  <div class="container">
+    <div class="tile is-ancestor">
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <p class="subtitle">Investimento</p>
+          <p class="title" *ngIf="!course.is_paid">CURSO GRÁTIS</p>
+          <p class="title" *ngIf="course.is_paid">{{course.price | currency:'BRL':true}}</p>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <p class="subtitle">Carga horária</p>
+          <p class="title">{{course.workload}} h/a</p>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <p class="subtitle">Disponível</p>
+          <p class="title">{{course.time_available ? "Faltam " + course.time_available + " dias" : 'SIM'}}</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>

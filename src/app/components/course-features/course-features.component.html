@@ -1,0 +1,58 @@
+<div>
+  <hr />
+  <div class="columns">
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <article class="media">
+            <div class="media-left">
+              <i class="fa fa-university fa-4x"></i>
+            </div>
+            <div class="media-content">
+              <div class="content">
+                <p>
+                  <strong>Certificado</strong>
+                  <br>
+                  <span [innerHTML]="course.certification"></span>
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="column">
+          <article class="media">
+            <div class="media-left">
+              <i class="fa fa-users fa-4x"></i>
+            </div>
+            <div class="media-content">
+              <div class="content">
+                <p>
+                  <strong>Público-alvo</strong>
+                  <br>
+                  <span [innerHTML]="course.target_audience"></span>
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <article class="media">
+    <div class="media-left">
+      <i class="fa fa-sitemap fa-4x"></i>
+    </div>
+    <div class="media-content">
+      <div class="content">
+        <p>
+          <strong>Tópicos do curso</strong>
+          <br>
+          <span *ngFor="let topic of course.topics">
+            <span class="tag">{{topic}}</span>
+          </span>
+        </p>
+      </div>
+    </div>
+  </article>
+</div>

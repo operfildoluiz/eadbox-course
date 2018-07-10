@@ -18,6 +18,9 @@ import { CoursePageInfoComponent } from "./components/course-page-info/course-pa
 import { CourseLectureListComponent } from "./components/course-lecture-list/course-lecture-list.component";
 
 import { NgSpinningPreloader } from "ng2-spinning-preloader";
+import { CourseContentComponent } from "./components/course-content/course-content.component";
+import { CourseFeaturesComponent } from "./components/course-features/course-features.component";
+import { CourseAboutComponent } from "./components/course-about/course-about.component";
 
 @NgModule({
   declarations: [
@@ -31,7 +34,10 @@ import { NgSpinningPreloader } from "ng2-spinning-preloader";
     CoursePageComponent,
     CoursePageHeaderComponent,
     CoursePageInfoComponent,
-    CourseLectureListComponent
+    CourseLectureListComponent,
+    CourseContentComponent,
+    CourseFeaturesComponent,
+    CourseAboutComponent
   ],
   imports: [AppRoutingModule, BrowserModule, FormsModule, HttpModule],
   providers: [ApiService, NgSpinningPreloader],

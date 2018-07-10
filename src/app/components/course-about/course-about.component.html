@@ -1,0 +1,9 @@
+<div class="block-info set-border-left" *ngIf="course.description">
+  <h1 class="title">Sobre o curso</h1>
+  <p [innerHTML]="course.description"></p>
+</div>
+
+<div class="block-info set-border-right" *ngIf="course.objective">
+  <h1 class="title">Objetivo(s)</h1>
+  <p [innerHTML]="course.objective"></p>
+</div>
