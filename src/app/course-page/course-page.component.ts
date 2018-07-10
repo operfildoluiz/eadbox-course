@@ -3,7 +3,7 @@ import { Observable } from "rxjs/Observable";
 import { CourseDataService } from "./../course-data.service";
 import { Course } from "./../course";
 import { Component, OnInit } from "@angular/core";
-import { ActivatedRoute } from "@angular/router";
+import { ActivatedRoute, Router } from "@angular/router";
 
 @Component({
   selector: "course-page",
@@ -17,6 +17,7 @@ export class CoursePageComponent implements OnInit {
   APP_NAME = environment.name;
 
   constructor(
+    private router: Router,
     private route: ActivatedRoute,
     private courseDataService: CourseDataService
   ) {}
@@ -26,6 +27,10 @@ export class CoursePageComponent implements OnInit {
 
     this.courseDataService.read(this.id).subscribe(course => {
       this.course = course;
+
+      if (this.course.title == "") {
+        this.router.navigateByUrl("error");
+      }
     });
   }
 }

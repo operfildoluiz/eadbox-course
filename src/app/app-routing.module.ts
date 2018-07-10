@@ -22,6 +22,10 @@ const routes: any = [
   {
     path: "**",
     component: PageNotFoundComponent
+  },
+  {
+    path: "error",
+    component: PageNotFoundComponent
   }
 ];
 

@@ -1,15 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { environment } from "./../../environments/environment";
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'course-list-header',
-  templateUrl: './course-list-header.component.html',
-  styleUrls: ['./course-list-header.component.css']
+  selector: "course-list-header",
+  templateUrl: "./course-list-header.component.html",
+  styleUrls: ["./course-list-header.component.css"]
 })
-export class CourseListHeaderComponent implements OnInit {
+export class CourseListHeaderComponent {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  APP_NAME: string = environment.name;
 }
