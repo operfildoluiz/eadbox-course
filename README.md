@@ -19,11 +19,11 @@ O EADBOX Course consome a API oficial da EADBOX¹ para o usuário definido no ar
 
 Em desenvolvimento, é possível utilizar o `json-server`, rodando o comando `npm run json-server`, que consome o arquivo `db.json`
 
-A aplciação utiliza o `localStorage` para fazer cache da API, melhorando a performance de maneira muito positiva.
+A aplicação utiliza o `localStorage` para fazer cache da API, melhorando a performance de maneira muito positiva.
 
 ### Front-end
 
-O sistema utiliza o Angular 2 como framework front-end e Bulma como framework CSS. O build faz uso do Webpack para limpeza e minificação na branch `gh-pages`.
+O sistema utiliza o Angular 2 como framework front-end e [Bulma.io](https://bulma.io) como framework CSS. O build faz uso do Webpack para limpeza e minificação na branch `gh-pages`.
 
 ![](./src/animation.gif)
 
@@ -45,4 +45,4 @@ Está lá :)
 
 _¹Como a API oficial possui proteção de CORS e o desafio inclui lidar com essa situação, foi necessário utilizar um proxy confiável e seguro para prover a interação sem precisar mexer nas configurações do servidor. Cogitou-se criar um servidor somente para tal finalidade (Heroku), mas como o projeto é restrito ao front-end, utilizar uma solução **segura** e confiável pareceu bastante eficaz._
 
-_²O acesso a API com o usuário de teste que utilizei foi expirado. Localizei uma empresa que utiliza as soluções da EADBOX: a DRC Treinamentos. Por isso, utilizei a API da mesma no projeto, uma vez que já possui bastante conteúdo cadastrado. É possível alterar através do arquivo de ambiente_
+_²O acesso a API com o usuário de teste que utilizei foi expirado. Localizei uma empresa que utiliza as soluções da EADBOX: a **DRC Treinamentos**. Por isso, utilizei a API da mesma no projeto, uma vez que já possui bastante conteúdo cadastrado. É possível alterar através do arquivo de ambiente_
