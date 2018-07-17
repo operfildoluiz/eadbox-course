@@ -14,8 +14,16 @@ export class CoursesComponent implements OnInit {
   constructor(private courseDataService: CourseDataService) {}
 
   public ngOnInit() {
-    this.courseDataService.list().subscribe(courses => {
-      this.courses = courses;
-    });
+    
+    if (window.localStorage.getItem('courses')) {
+      this.courses = JSON.parse(window.localStorage.getItem('courses'));
+    } else {
+
+      this.courseDataService.list().subscribe(courses => {
+        this.courses = courses;
+        window.localStorage.setItem('courses', JSON.stringify(courses));
+      });
+    }
+    
   }
 }

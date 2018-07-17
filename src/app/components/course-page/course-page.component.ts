@@ -24,12 +24,21 @@ export class CoursePageComponent implements OnInit {
   ngOnInit() {
     this.id = this.route.snapshot.params["id"];
 
-    this.courseDataService.read(this.id).subscribe(course => {
-      this.course = course;
+    if (window.localStorage.getItem('course_' + this.id)) {
+      this.course = new Course(JSON.parse(window.localStorage.getItem('course_' + this.id)));
+    } else {
 
-      if (this.course.title == "") {
-        this.router.navigateByUrl("error");
-      }
-    });
+      this.courseDataService.read(this.id).subscribe(course => {
+        this.course = course;
+
+        window.localStorage.setItem('course_' + this.id, JSON.stringify(course));
+  
+        if (this.course.title == "") {
+          this.router.navigateByUrl("error");
+        }
+      });
+    }
+
+
   }
 }
