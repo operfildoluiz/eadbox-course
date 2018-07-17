@@ -1,5 +1,6 @@
 export const environment = {
   production: true,
-  apiUrl: "https://luiz-teste.eadbox.com/api/",
+  apiUrl: "/api/",
+  // apiUrl: "http://localhost:3000/",
   name: "TestSchool"
 };

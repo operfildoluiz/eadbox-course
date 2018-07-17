@@ -35,4 +35,6 @@ Depois, instale as dependências através do NPM:
 
 Inicie o servidor built-in através do comando:
 
-    ng serve
+    npm start run
+
+- Como a API possui proteção de CORS, é necessário o uso de um Proxy (`angular-proxy) para prover o acesso a API de forma segura
