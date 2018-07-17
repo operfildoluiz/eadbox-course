@@ -7,7 +7,11 @@
     {
       "root": "src",
       "outDir": "dist",
-      "assets": ["assets", "favicon.ico", "loading.gif"],
+      "assets": [
+  "assets",
+  "favicon.ico",
+  "loading.gif"
+],
       "index": "index.html",
       "main": "main.ts",
       "polyfills": "polyfills.ts",
@@ -61,5 +65,8 @@
       "pipe": true,
       "service": true
     }
+  },
+  "warnings": {
+    "packageDeprecation": false
   }
 }
