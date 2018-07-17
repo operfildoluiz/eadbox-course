@@ -5,7 +5,7 @@
 EADBOX Course é um projeto de landing-page de cursos desenvolvido como desafio para o processo seletivo da EADBOX
 
 > **Proposta**
-> Implementar uma listagem com os cursos cadastrados na plataforma consumindo a API Eadbox utilizando Angular 2+.
+> Implementar uma listagem com os cursos cadastrados na plataforma consumindo a API Eadbox utilizando Angular 2
 
 ## Desenvolvimento
 
@@ -15,7 +15,7 @@ O aplicativo pode ser acessado através do GitHub Pages, [clicando aqui](https:/
 
 ### Back-end
 
-O EADBOX Course consome a API oficial da EADBOX para o usuário definido no arquivo `src/environments/environment.ts` em localhost ou `src/environments/environment.prod.ts` em produção.
+O EADBOX Course consome a API oficial da EADBOX¹ para o usuário definido no arquivo `src/environments/environment.ts` em localhost ou `src/environments/environment.prod.ts` em produção.
 
 Em desenvolvimento, é possível utilizar o `json-server`, rodando o comando `npm run json-server`, que consome o arquivo `db.json`
 
@@ -35,6 +35,10 @@ Depois, instale as dependências através do NPM:
 
 Inicie o servidor built-in através do comando:
 
-    npm start run
+    ng serve
 
-- Como a API possui proteção de CORS, é necessário o uso de um Proxy (`angular-proxy) para prover o acesso a API de forma segura
+Está lá :)
+
+### Observações
+
+_¹Como a API oficial possui proteção de CORS e o desafio inclui lidar com essa situação, foi necessário utilizar um proxy confiável e seguro para prover a interação sem precisar mexer nas configurações do servidor. Cogitou-se criar um servidor somente para tal finalidade (Heroku), mas como o projeto é restrito ao front-end, utilizar uma solução **segura** e confiável pareceu bastante eficaz._

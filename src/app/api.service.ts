@@ -9,7 +9,7 @@ import "rxjs/add/observable/throw";
 
 import { Course } from "./course";
 
-const API_URL = environment.apiUrl;
+const API_URL = "https://cors-anywhere.herokuapp.com/" + environment.apiUrl;
 
 @Injectable()
 export class ApiService {

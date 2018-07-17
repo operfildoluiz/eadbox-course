@@ -1,3 +1,8 @@
 .tag-down {
   margin-bottom: 10px;
 }
+
+.img-placeholder {
+  background: #eee;
+  min-height: 206px;
+}

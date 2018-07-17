@@ -4,6 +4,6 @@
 export const environment = {
   production: false,
   apiUrl:
-    "https://cors-anywhere.herokuapp.com/https://luiz-teste.eadbox.com/api/",
+    "https://luiz-teste.eadbox.com/api/",
   name: "TestSchool"
 };

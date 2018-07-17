@@ -3,7 +3,6 @@
  */
 export const environment = {
   production: true,
-  apiUrl:
-    "https://cors-anywhere.herokuapp.com/https://luiz-teste.eadbox.com/api/",
+  apiUrl: "https://luiz-teste.eadbox.com/api/",
   name: "TestSchool"
 };
