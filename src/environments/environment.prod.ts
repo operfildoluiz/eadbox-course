@@ -3,6 +3,7 @@
  */
 export const environment = {
   production: true,
-  apiUrl: "https://luiz-teste.eadbox.com/api/",
-  name: "TestSchool"
+  apiUrl:
+    "https://drc.eadbox.com/api/",
+  name: "DRC Treinamentos"
 };

@@ -1,9 +1,11 @@
 <section class="section" *ngIf="courses.length > 0">
   <section class="container">
-    <div class="columns">
-      <span *ngFor="let course of courses" class="column is-4">
+    <div class="columns is-multiline">
+      <div *ngFor="let course of courses" class="column is-4">
         <course-list-item [course]="course"></course-list-item>
-      </span>
+      </div>
     </div>
   </section>
 </section>
+
+<loading *ngIf="courses.length == 0"></loading>

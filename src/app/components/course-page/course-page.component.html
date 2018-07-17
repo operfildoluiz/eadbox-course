@@ -1,6 +1,7 @@
-<div>
+<div *ngIf="course.title">
     <course-page-header [course]="course"></course-page-header>
     <course-page-info [course]="course"></course-page-info>
     <course-list-header></course-list-header>
     <course-list-footer></course-list-footer>
 </div>
+<loading *ngIf="!course.title"></loading>
