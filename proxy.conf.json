@@ -1,6 +1,6 @@
 {
   "/api": {
-    "target": "https://luiz-teste.eadbox.com",
+    "target": "https://luiz-teste.eadbox.com/api/",
     "secure": true,
     "changeOrigin": true,
     "logLevel": "debug"
