@@ -21,7 +21,7 @@ import { NgSpinningPreloader } from "ng2-spinning-preloader";
 import { CourseContentComponent } from "./components/course-content/course-content.component";
 import { CourseFeaturesComponent } from "./components/course-features/course-features.component";
 import { CourseAboutComponent } from "./components/course-about/course-about.component";
-import { LoadingComponent } from './loading/loading.component';
+import { LoadingComponent } from './components/loading/loading.component';
 
 @NgModule({
   declarations: [
